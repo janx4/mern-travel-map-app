@@ -1,0 +1,67 @@
+/* fix size close button popup MAPBOX */
+.mapboxgl-popup-close-button {
+    font-size: 20px;
+    padding: 4px 12px;
+    color: red;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+label {
+    color: tomato;
+    border-bottom: 1px solid tomato;
+    font-size: 13px;
+    width: max-content;
+    margin: 3px 0;
+}
+
+.description {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.star {
+    color: gold;
+}
+
+textarea, input {
+    padding: 8px;
+    border: 1px solid rgb(170, 166, 166);
+    outline: none;
+    border-radius: 6px;
+}
+
+select:hover, textarea:hover, textarea:focus, input:hover, input:focus {
+    border-color: dodgerblue;
+}
+
+select {
+    width: 45%;
+    outline: none;
+    padding: 4px;
+    border-radius: 6px;
+    margin: auto;
+}
+
+
+.submitButton {
+    width: 120px;
+    margin: 12px auto;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: tomato;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.submitButton:hover {
+    opacity: .7;
+}
